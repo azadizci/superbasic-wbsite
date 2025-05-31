@@ -56,7 +56,11 @@
   
   /* HERO SECTION */
   #showcase {
-    background: url("ya.jpg") no-repeat center center/cover;
+    background: url("ya.jpg")
+        background-image: url("ya.jpg");
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
     color: white;
     min-height: 500px;
     text-align: center;
@@ -65,6 +69,9 @@
     justify-content: center;
     padding: 40px 20px;
   }
+
+
+
   
   .hero-title {
     font-size: 48px;
