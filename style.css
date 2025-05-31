@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: lightgray;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  header {
+    background-color: #1e1e2f;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+  }
+  
+  header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  
+  header ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+  }
+  
+  header #branding {
+    float: left;
+    margin: 0;
+  }
+  
+  header nav {
+    float: right;
+  }
+  
+  /* HERO SECTION */
+  #showcase {
+    background: url("img/ya.jpg") no-repeat center center/cover;
+    color: white;
+    min-height: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 20px;
+  }
+  
+  .hero-title {
+    font-size: 48px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 5px black;
+  }
+  
+  .hero-sub {
+    font-size: 24px;
+    text-shadow: 1px 1px 5px black;
+  }
+  
+  /* BOXES SECTION */
+  #boxes {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  #boxes .box {
+    flex: 1;
+    min-width: 280px;
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.1);
+  }
+  
+  #boxes .box img {
+    width: 100%;
+    max-height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  #boxes .box h3 {
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  #newsletter {
+    padding: 10px;
+    color: whitesmoke;
+    background: #ff5722;
+    overflow: auto;
+  }
+  
+  #newsletter h1 {
+    float: left;
+  }
+  
+  #newsletter form {
+    float: right;
+    margin-top: 15px;
+  }
+  
+  #newsletter input[type="email"] {
+    padding: 5px;
+    height: 25px;
+    width: 250px;
+  }
+  
+  .button_1 {
+    padding: 6px 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button_1:hover {
+    background-color: #e8491d;
+  }
+  
+  #main {
+    padding: 20px 0;
+  }
+  
+  footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+    background-color: #4a90e2;
+    text-align: center;
+  }
+  
